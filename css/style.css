@@ -1,0 +1,59 @@
+
+p,
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+.minhaFoto {
+    width: 220px;
+    height: 220px;
+}
+
+.icons {
+    max-width: 200px;
+    max-height: 150px;
+    width: 40px;
+    height: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.github,
+.linkedin,
+.email,
+.whatsapp,
+.endereço,
+.box,
+.java,
+.html,
+.css,
+.javascript {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    margin: 30px auto;
+    max-width: 600px;
+    background-color: rgb(215, 205, 228);
+    overflow-y: scroll;
+    height: 90vh;
+    padding: 15px 2%;
+    box-shadow: 0 0 10px #ffffff;
+}
+.container::-webkit-scrollbar{
+    width: 14px;
+    border: 1px solid #000000;
+}
+.container::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+body {
+    background-image:url("../imgs/fundo2.jpg") ;
+    background-size: cover;
+}
+
+
+
+
